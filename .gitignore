@@ -1,0 +1,9 @@
+# Ignore environment files
+.env
+
+# Ignore common Python artifacts
+__pycache__/
+*.pyc
+
+# Streamlit cache
+.streamlit/
