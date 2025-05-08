@@ -2,8 +2,8 @@ import requests
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = "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"  # Replace with your key
+
 
 def query_openrouter(context):
     messages = [

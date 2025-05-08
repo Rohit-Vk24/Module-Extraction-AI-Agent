@@ -3,8 +3,8 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-FIRECRAWL_API_KEY = os.getenv("FIRECRAWL_API_KEY")
 
+FIRECRAWL_API_KEY = "fc-2bf9bbba79eb45e4a102aac779010516" 
 def firecrawl_scrape(url: str, depth: int = 3):
     headers = {
         "Authorization": f"Bearer {FIRECRAWL_API_KEY}",
